@@ -12,8 +12,13 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.3.1",
     "bootstrap-icons": "^1.10.5",
-    "sass": "^1.66.1"
+    "sass": "^1.66.1",
+    "scrollreveal": "^4.0.9",
+    "scss": "^0.2.4",
+    "typed.js": "^2.0.16",
+    "waypoints": "^4.0.1"
   }
 }
