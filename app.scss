@@ -20,7 +20,9 @@ $border-radius : .75rem;
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
-
+body{
+    overflow-x: hidden;
+}
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     transition: transform 0.5s;
 }
