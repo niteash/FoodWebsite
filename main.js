@@ -2,6 +2,7 @@ import "./app.scss";
 import Typed from 'typed.js';
 import ScrollReveal from "scrollreveal";
 import "waypoints/lib/noframework.waypoints";
+import * as bootstrap from 'bootstrap';
 
 let typed = new Typed('.element', {
     strings: ['Dishes ...', 'Food ...'],
