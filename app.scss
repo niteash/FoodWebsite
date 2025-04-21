@@ -31,7 +31,22 @@ body{
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: white !important;
 }
+.pf_img{
+    max-width: 140px;
+    max-height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;    
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 10px;
+  
+}
 
+.pf_img:hover {
+    transform: scale(1.05);  /* Slight zoom on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
 .brand-icon{
     height: 40px;
     transition: transform 0.5s;
